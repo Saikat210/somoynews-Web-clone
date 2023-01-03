@@ -193,9 +193,14 @@
     padding-right: 10px;
 }
 
-footer img {
+footer {
+    background-color: red;
+    height: 40px;
     margin-top: 10px;
-    width: 100%;
-    height: 200px;
-    background-color: rgba(0, 0, 0, .75);
+}
+
+footer h2 {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
 }
