@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .main_header {
@@ -54,19 +55,19 @@
     margin-right: 45px;
 }
 
-.ade {
+.ads-1 {
     text-align: center;
 }
 
-.ade img {
+.ads-1 img {
     width: 600px;
     display: inline-block;
     margin-top: 8px;
 }
 
-section {
+.section-1 {
     background-color: rgba(119, 136, 153, 0.384);
-    height: 400px;
+    height: 750px;
 }
 
 .title {
@@ -102,6 +103,99 @@ section {
     padding-top: 22px;
 }
 
+#pg {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+/* .viral u {
+    color: red;
+} */
+.img-1 {
+    background-color: red;
+    width: 440px;
+    height: 400px;
+    margin-left: 212px;
+    color: white;
+    border-radius: 12px;
+    float: left;
+}
+
 .img-1 img {
-    width: 400px;
+    width: 440px;
+    border: 2px solid red;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.img-1 h3 {
+    margin-left: 18px;
+    margin-top: 12px;
+
+}
+
+.img-1 p {
+    margin-top: 12px;
+    margin-left: 18px;
+}
+
+.img-2 {
+    background-color: red;
+    width: 440px;
+    height: 400px;
+    margin-right: 250px;
+    color: white;
+    border-radius: 12px;
+    float: right;
+}
+
+.img-2 img {
+    width: 440px;
+    height: 250px;
+    border: 2px solid red;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.img-2 h3 {
+    margin-left: 18px;
+    margin-top: 12px;
+
+}
+
+.img-2 p {
+    margin-top: 12px;
+    margin-left: 18px;
+}
+
+.ads-2 {
+    text-align: center;
+}
+
+.ads-2 img {
+    width: 600px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.vd-1 {
+    margin-left: 170px;
+    float: left;
+    padding-right: 10px;
+}
+
+.vd-2 {
+    float: left;
+    padding-right: 10px;
+}
+
+footer img {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, .75);
 }
